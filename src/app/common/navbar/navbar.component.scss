@@ -1,0 +1,41 @@
+nav {
+    position: fixed;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    left: 5%;
+    padding-top: 10px;
+    justify-content: space-between;
+    color: white;
+    z-index: 1 !important;
+    .heading {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        li {
+            list-style: none;
+            cursor: pointer;
+        }
+        .link {
+            text-decoration: none;
+            color: #cdcdcd;
+        }
+
+        
+    }
+
+    button {
+        background-color: #222222;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

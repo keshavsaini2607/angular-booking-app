@@ -1,0 +1,13 @@
+<nav [style.color]="color">
+  <h1 class="heading">Make My Trip</h1>
+  <div class="nav-list">
+    <ul *ngFor="let link of links">
+      <a [routerLink]="link.href"  class="link" [style.color]="color">
+        <li [id]="link.id">
+          {{ link.title }}
+        </li>
+      </a>
+    </ul>
+  </div>
+  <button [style.color]="color">Login</button>
+</nav>
